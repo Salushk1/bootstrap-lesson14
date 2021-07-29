@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-warning" href="#" >Georgian Tours</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Foods and Tradition</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Place
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Tbilisi</a></li>
+                      <li><a class="dropdown-item" href="#">Achara/Batumi</a></li>
+                      <li><a class="dropdown-item" href="#">Kakheti/Wine Resort</a></li>
+                      <li><a class="dropdown-item" href="#">Gudauri</a></li>
+                      <li><a class="dropdown-item" href="#">Bakuriani</a></li>
+                      <li><a class="dropdown-item" href="#">Svaneti</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">More Places</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Book Now</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/tbilisii.jpg" class="d-block w-100" alt="Tbilisi">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>The Capital of Georgia</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/bestkakheti.jpeg" class="d-block w-100" alt="Kakheti">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>The Homeland of Winde</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/batumi.jpg" class="d-block w-100" alt="Batumi">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>The Best Summer Ressort with Beautiful Sea</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/Train Bakuriani.jpg" class="d-block w-100" alt="Bakuriani">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="bg-dark">The Winter Festival and Sking</h2>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- foods -->
+      <h1 class="georgian-foods" >Georgian Foods</h1>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../images/acharuli.jpg" class="card-img-top" alt="acharuli">
+            <div class="card-body">
+              <h5 class="card-title">Acharuli Khachapuri</h5>
+              <p class="card-text">Acharuli Khachapuri is a Georgian bread stuffed with cheese and baked in the oven until molten and sizzling hot. An egg yolk is added during the last minutes of cooking, and the whole delicious mess is topped with a pat of butter. When the cheese, yolk, and butter are swirled together, it's a thing of beauty.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/xinkali.jpg" class="card-img-top" alt="Khinkali">
+            <div class="card-body">
+              <h5 class="card-title">Georgian Khinkali</h5>
+              <p class="card-text">Khinkali is a very popular Georgian dumpling made of twisted knobs of dough, stuffed with meat and spices. It is considered to be one of the national dishes of Georgia. Different regions of Georgia make khinkali with different fillings. The most popular filling is a pork/beef mi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/elarji.jpeg" class="card-img-top" alt="Elarji">
+            <div class="card-body">
+              <h5 class="card-title">Elarji</h5>
+              <p class="card-text">Elarji is a popular dish from Samegrelo region, made from coarse cornmeal, cornflour and Sulguni cheese.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/churchxela (1).jpg" class="card-img-top" alt="Churchkhela">
+            <div class="card-body">
+              <h5 class="card-title">Churchkhela</h5>
+              <p class="card-text">Georgians usually make Churchkhela in Autumn when the primary ingredients, grapes and nuts, are harvested. It is a string of walnut halves that have been dipped in grape juice called Tatara or Phelamushi (grape juice thickened with flour), and dried in the sun. No sugar is added to make real Churchkhela.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- grid system -->
+<div class="container grid bg-warning">
+    <div class="row">
+      <div class="col">
+        Home
+      </div>
+      <div class="col">
+       Foods and Tradition
+      </div>
+      <div class="col">
+        Place
+      </div>
+      <div class="col">
+        Book Now
+      </div>
+      <div class="col">
+        Contact
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <h4 class="copyright">Copyright © 2021</h4>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
